@@ -124,8 +124,7 @@ fetch(
 )
   .then((res) => {
     if (res.status === 429) {
-      const rndInt = randomIntFromInterval(1187.202, 1210.9)
-
+      const rndInt = randomIntFromInterval(1184, 1196)
       $("#balance").html(rndInt.toString().slice(0, -9))
     }
 
